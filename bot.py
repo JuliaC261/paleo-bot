@@ -55,4 +55,4 @@ async def sorteio(ctx):
     # Armazena a mensagem no contexto para edição futura, se necessário.
 
 if __name__ == "__main__":
-bot.run(TOKEN)
+    bot.run(TOKEN)
