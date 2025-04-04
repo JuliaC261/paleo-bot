@@ -4,7 +4,7 @@ from discord.ext import commands
 import os
 
 # Configuração do bot
-TOKEN = OS.getenv("TOKEN")
+TOKEN = os.getenv("TOKEN")
 intents = discord.Intents.default()  # Habilita as intents padrão
 intents.message_content = True  # Habilita a Message Content Intent
 bot = commands.Bot(command_prefix="!", intents=intents)
