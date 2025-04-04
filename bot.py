@@ -1,9 +1,10 @@
 import discord
 import random
 from discord.ext import commands
+import os
 
 # Configuração do bot
-TOKEN = "MTM1NzQzNTgxNDU0NzU1ODUzMA.G1Aihe.PKHVsbaed5HCs2KrMJGNeXkU_mLxOGBReHmegc"
+TOKEN = OS.getenv("TOKEN")
 intents = discord.Intents.default()  # Habilita as intents padrão
 intents.message_content = True  # Habilita a Message Content Intent
 bot = commands.Bot(command_prefix="!", intents=intents)
