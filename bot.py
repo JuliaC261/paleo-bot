@@ -11,7 +11,7 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 
 # Dicionário com cidades por país
 cidades = {
-    "Formação Morrison": ["Trovosaurus t.", "Brachiosaurus", "Dryosaurus", "Camarasaurus", "Apatosaurus"],
+    "Formação Morrison": ["Torvosaurus t.", "Brachiosaurus", "Dryosaurus", "Camarasaurus", "Apatosaurus"],
     "Formação Huincul": ["Argentinossauro Huinculensis"],
     "Formação Kayenta": ["Dilofossauro"]
 }
