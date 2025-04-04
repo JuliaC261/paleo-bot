@@ -54,4 +54,5 @@ async def sorteio(ctx):
     msg = await ctx.send("**Escolha um sítio paleontológico para escavar:**", view=view)
     # Armazena a mensagem no contexto para edição futura, se necessário.
 
+if __name__ == "__main__":
 bot.run(TOKEN)
