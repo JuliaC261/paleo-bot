@@ -51,7 +51,7 @@ class MenuSelecao(discord.ui.View):
 async def sorteio(ctx):
     view = MenuSelecao()
     # Envia a mensagem inicial com a view
-    msg = await ctx.send("**Escolha um sítio paleontológico para escavar:**", view=view)
+    msg = await ctx.send("**TESTE GLOBAL:**", view=view)
     # Armazena a mensagem no contexto para edição futura, se necessário.
 
 if __name__ == "__main__":
