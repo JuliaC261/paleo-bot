@@ -37,7 +37,7 @@ class MenuSelecao(discord.ui.View):
             mensagem = "Infelizmente, você não conseguiu escavar nenhum fóssil dessa vez."
         else:
             emoji = discord.utils.get(ctx.guild.emojis, id=1358060302796591241)
-            mensagem = f"Você escavou **{numero_sorteado}** fósseis {emoji} de **{cidade_sorteada}**"
+            mensagem = f"Você escavou **{numero_sorteado}** fósseis de **{cidade_sorteada}**"
 
         embed = discord.Embed(
             title="",
